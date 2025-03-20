@@ -66,10 +66,16 @@ url = local_path if use_local else github_url`
 
 ## Key Steps in the Project
 1 Data Loading: Import SALES.txt using Pandas.
+
 2 Exploratory Data Analysis: Examine dataset structure, summary statistics, and visualize the Sales-Advertising relationship.
+
 3 Model Building: Fit a Simple Linear Regression model using Scikit-Learn.
+
+
 4 Evaluation: Compute RMSE (11.2273) and R² score (0.5789) to assess performance.
+
 5 Visualization: Plot scatter points and the regression line, plus residual errors.
+
 6 Conclusion: The model underfits (low training score: 0.2861) and isn’t suitable for deployment (R² < 0.7), suggesting a need for a more complex approach like polynomial regression.
 
 
