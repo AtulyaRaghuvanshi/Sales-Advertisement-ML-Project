@@ -80,10 +80,10 @@ url = local_path if use_local else github_url`
 
 
 ## Results
-**Model Equation**: ( y = 1.6051 \cdot X - 11.1600 )
+**Model Equation**: ( y = 1.6051 \cdot X - 11.1600 ).
 **Performance**:
-  RMSE: 11.2273 (high error indicates poor fit).
-  R² Score: 0.5789 (explains 57.89% of variance, below the 0.7 threshold).
+RMSE: 11.2273 (high error indicates poor fit).
+R² Score: 0.5789 (explains 57.89% of variance, below the 0.7 threshold).
 **Diagnosis**: Residual plots show non-random patterns, and low training/test scores indicate underfitting.
 
 ## Assumptions Tested
