@@ -80,26 +80,26 @@ url = local_path if use_local else github_url`
 
 
 ## Results
-**Model Equation**: ( y = 1.6051 \cdot X - 11.1600 ).
-**Performance**:
-RMSE: 11.2273 (high error indicates poor fit).
-R² Score: 0.5789 (explains 57.89% of variance, below the 0.7 threshold).
-**Diagnosis**: Residual plots show non-random patterns, and low training/test scores indicate underfitting.
+- **Model Equation**: \( y = 1.6051 \cdot X - 11.1600 \)
+- **Performance**:
+  - **RMSE**: 11.2273 (high error indicates poor fit).
+  - **R² Score**: 0.5789 (explains 57.89% of variance, below the 0.7 threshold).
+- **Diagnosis**: Residual plots show non-random patterns, and low training/test scores indicate underfitting.
 
 ## Assumptions Tested
 The model assumes:
 
-  1)Linear relationship (partially violated per scatter plot).
-  2)Multivariate normality.
-  3)No multicollinearity (not applicable with one feature).
-  4)No autocorrelation.
-  5)Homoscedasticity (violated per residual analysis).
-  
-## Future Improvements
-1)Experiment with polynomial regression or other non-linear models.
-2)Collect more data or additional features (e.g., marketing channels).
-3)Address underfitting by increasing model complexity.
+1. Linear relationship (partially violated per scatter plot).
+2. Multivariate normality.
+3. No multicollinearity (not applicable with one feature).
+4. No autocorrelation.
+5. Homoscedasticity (violated per residual analysis).
 
-References
-Machine Learning notes by Andrew Ng.
-Wikipedia: Linear Regression, Simple Linear Regression, OLS.
+## Future Improvements
+1. Experiment with polynomial regression or other non-linear models.
+2. Collect more data or additional features (e.g., marketing channels).
+3. Address underfitting by increasing model complexity.
+
+## References
+- Machine Learning notes by Andrew Ng.
+- Wikipedia: [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression), [Simple Linear Regression](https://en.wikipedia.org/wiki/Simple_linear_regression), [OLS](https://en.wikipedia.org/wiki/Ordinary_least_squares).
